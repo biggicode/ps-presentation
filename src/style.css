@@ -160,3 +160,13 @@
   width: 35px;
   margin-bottom: 5px;
 }
+
+.social__img {
+  height: 13px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.social-links {
+  text-align: center;
+}
