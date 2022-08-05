@@ -62,3 +62,25 @@
   position: relative;
   margin-left: 50px;
 }
+
+.semi__title {
+  font-size: 54px;
+}
+
+.sub__title {
+  font-size: 30px;
+  color: #707070;
+  font-weight: 100;
+  margin: 20px 0 10px;
+}
+
+.title__text {
+  font-size: 16px;
+  color: #b7b7b7;
+  font-weight: 100;
+}
+
+.title__price {
+  margin: 30px 0;
+  font-size: 20px;
+}
