@@ -181,6 +181,8 @@
     top: 75px;
     right: 0;
     z-index: 2;
+    overflow: hiddens;
+    transition: 0.5s;
   }
 
   .nav__list__li {
@@ -195,5 +197,34 @@
 
   .menu-icon {
     display: block;
+  }
+  .row {
+    flex-direction: column-reverse;
+    margin: 50px 0;
+  }
+
+  .col-2 {
+    flex-basis: 100%;
+    margin-bottom: 50px;
+  }
+
+  .controller-img {
+    width: 77%;
+  }
+
+  .color-box {
+    transform: translateX(75px);
+  }
+
+  .col-1 {
+    flex-basis: 100%;
+  }
+
+  .semi__title {
+    font-size: 35px;
+  }
+
+  .sub__title {
+    font-size: 15px;
   }
 }

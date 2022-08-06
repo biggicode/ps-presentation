@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>PS Controller</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -79,6 +79,23 @@
       </div>
     </div>
 
-    <script></script>
+    <script>
+      let menuList = document.querySelector(".nav__list");
+      if (window.innerWidth <= 700) {
+        console.log(window.innerWidth);
+        menuList.style.height = "0px";
+        menuList.style.display = "none";
+      }
+
+      function togglemenu() {
+        if (menuList.style.height == "0px") {
+          menuList.style.height = "130px";
+          menuList.style.display = "block";
+        } else {
+          menuList.style.height = "0px";
+          menuList.style.display = "none";
+        }
+      }
+    </script>
   </body>
 </html>
