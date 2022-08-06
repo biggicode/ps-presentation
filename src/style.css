@@ -27,6 +27,8 @@
 .menu-icon {
   width: 25px;
   cursor: pointer;
+  margin-left: auto;
+  display: none;
 }
 
 .nav__list {
@@ -169,4 +171,29 @@
 
 .social-links {
   text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav__list {
+    width: 100%;
+    background: linear-gradient(#ff469f, #ff6062);
+    position: absolute;
+    top: 75px;
+    right: 0;
+    z-index: 2;
+  }
+
+  .nav__list__li {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .nav__link {
+    color: #fff;
+  }
+
+  .menu-icon {
+    display: block;
+  }
 }
